@@ -16,12 +16,12 @@ public class LPGshartage {
     Scanner sc=new Scanner(System.in);
     String  LastbookingID = sc.nextLine();
     System.out.println("Your last booking date is");
-    long daysSinceLastBooking = ChronoUnit.DAYS.between(LocalDate.parse("2026-02-08"), LocalDate.now());
+    long daysSinceLastBooking = ChronoUnit.DAYS.between(LocalDate.parse("2024-05-01"), LocalDate.now());
     System.out.println("Days since last booking: " + daysSinceLastBooking);
     long bookingConform=25-daysSinceLastBooking;
-    System.out.println("Please enter your new booking ID to confirm your new LPG cylinder booking:");
+    
     String BookinID=sc.nextLine();
-    System.out.println("" + BookinID);
+    System.out.println("Your today booking ID is : " + BookinID);
     if(bookingConform<=0){
         System.out.println("Your new LPG cylinder booking is confirmed.");// confirmation message
         System.out.println("Your new LPG cylinder will be delivered in 2 days."); // delivery update
