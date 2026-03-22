@@ -11,7 +11,7 @@ public class studentatendance {
         int Totalpresent = 0;
         for (int i = 0; i < 6; i++) {
             //if student are present  than p else A;
-            System.out.println(arr[i] + "is :");
+            System.out.println(arr[i] + "  is :");
             char Student = sc.next().charAt(0);
             if (Student == 'P') {
                 Totalpresent++;
