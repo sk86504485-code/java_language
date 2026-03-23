@@ -33,6 +33,7 @@ public class studentMarks {
             averageMark = totalmarks / 5;
             System.out.println("Total Mark of student " + i + ":" + totalmarks);
             System.out.println("Aberage marks of student" + i + ":" + averageMark);
+            // student given gread 
             if (averageMark >= 90) {
                 System.out.println("Greade A");
             } else if (averageMark >= 80) {
